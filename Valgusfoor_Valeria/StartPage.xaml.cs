@@ -2,8 +2,8 @@ namespace Valgusfoor_Valeria;
 
 public partial class StartPage : ContentPage
 {
-    public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(0), new FigurePage(1), new Valgusfoor() };
-    public List<string> tekstid = new List<string> { "Tee lahti TextPage", "Tee lahti FigurePage", "Tee lahti Valgusfoor" };
+    public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(0), new FigurePage(1), new Valgusfoor(), new DateTime_Page(), new StepperSliderPage() };
+    public List<string> tekstid = new List<string> { "Tee lahti TextPage", "Tee lahti FigurePage", "Tee lahti Valgusfoor", "Tee lahti DateTime", "Tee lahti StepperSliderPage" };
 
     ScrollView sv;
     VerticalStackLayout vst;
